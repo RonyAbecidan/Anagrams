@@ -35,8 +35,7 @@ jobs: # A basic unit of work in a run
             jupyter nbconvert --to script Anagrams.ipynb
             autopep8 --in-place --aggressive --aggressive Anagrams.py
             radon cc Anagrams.py -a
-            pylint Anagrams.py || pylint-exit $?
-            cd ../            
+            pylint Anagrams.py || pylint-exit $?          
             python -m unittest Anagrams.py
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
           path: test-results
