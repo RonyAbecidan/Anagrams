@@ -83,7 +83,7 @@ Example :'Cra' instead of 'Car'
 
 The program must find such mistakes in a sentence or a paragraph knowing a sets of words in a dictionary.
 
-If I have time, I will extends the power of this spell checker in considering the case where some letters are forgotten in a word
+If I have time, I will extend the power of this spell checker. We can, for instance, considering the case where some letters are forgotten in a word
 
 Exemple : 'Rom' instead of 'Room'
 
@@ -95,6 +95,6 @@ Sentence = 'Today, I will go to the supemakret because I need a copmuter for my 
 
 #### Output
 
-I find 3 errors, I think the correct answer is :
+I find 3 errors, I think the correct sentence is :
 
 '''Today, I will go to the supermarket because I need a computer for my room'
