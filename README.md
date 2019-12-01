@@ -3,7 +3,7 @@
 
 ### For this second project, I chose to play with strings and I propose to attempt to solve the following problems
 
-# 1- We consider words composed of lowercase alphabetic characters, separated by whitespace(or new line) and we are interested in finding the 5 largest anagram groups
+# 1- We consider words composed of lowercase alphabetic characters, separated by a new line and we are interested in finding the 5 largest anagram groups
 
 ### Example :
 
