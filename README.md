@@ -1,4 +1,3 @@
-
 # Topic of the Project 
 
 ### For this second project, I chose to play with strings and I propose to attempt to solve the following problems
@@ -35,33 +34,42 @@
 
 Source of this problem : http://poj.org/problem?id=2408
 
+
 # 2 - We want a program that will read in a dictionary and a list of phrases and determine which words from the dictionary, if any, form anagrams of the given phrases.
 
 The program must find all sets of words in the dictionary which can be formed from the letters in each phrase. We will not include the set consisting of the original words. 
 
 If no anagram is present, do not write anything, not even a blank line.
 
+These words must appear in alphabetic sequence.
+
+Input will consist of two parts. The first part is the dictionary, the second part is the set of phrases
+for which you need to find anagrams. Each part of the file will be terminated by a line consisting of a
+single ‘#’
+
 ### Example :
 
 #### Input 
 
-ABC
-AND
-DEF
-DXZ
-K
-KX
-LJSRT
-LT
-PT
-PTYYWQ
-Y
-YWJSRQ
-ZD
-ZZXY
-ZZXY ABC DEF
-SXZYTWQP KLJ YRTD
-ZZXY YWJSRQ PTYYWQ ZZXY
+- ABC
+- AND
+- DEF
+- DXZ
+- K
+- KX
+- LJSRT
+- LT
+- PT
+- PTYYWQ
+- Y
+- YWJSRQ
+- ZD
+- ZZXY
+
+#
+- ZZXY ABC DEF
+- SXZYTWQP KLJ YRTD
+- ZZXY YWJSRQ PTYYWQ ZZXY
 
 #### Output
 
