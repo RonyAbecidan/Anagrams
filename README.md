@@ -83,7 +83,7 @@ SXZYTWQP KLJ YRTD = KX LT PT Y YWJSRQ ZD
 
 Source of this problem : https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=84
 
-# 3 - Finally, we will try to create a spell checker thanks to what we have learned before
+# 3 - Finally, we will try to create a spell checker
 
 We will study first, the correction of the mistakes in which all the letters of a word are present, but, not in the good order
 
@@ -91,18 +91,33 @@ Example :'Cra' instead of 'Car'
 
 The program must find such mistakes in a sentence or a paragraph knowing a sets of words in a dictionary.
 
-If I have time, I will extend the power of this spell checker. We can, for instance, considering the case where some letters are forgotten in a word
+If I have time, I will extends the power of this spell checker in considering the case where some letters are forgotten in a word
 
 Exemple : 'Rom' instead of 'Room'
 
 
-#### Input 
+### Input : A .txt document with first, the words of the dictionary at each line until a line in which there will be the symbol "#" which will indicate that we start to consider sentences
 
-Dictionary = ['Movie','Car','Room','Supermarket','Computer']
-Sentence = 'Today, I will go to the supemakret because I need a copmuter for my romo'
+- Movie
+- Car
+- Room
+- Supermarket
+- Computer
+- #
+- Today, I will go to the supemakret because I need a copmuter for my romo
+- I am watching a moive from my cra
 
-#### Output
+### Output : Proposition of corrections for the sentences
 
-I find 3 errors, I think the correct sentence is :
+Sentence : 'Today, I will go to the supemakret because I need a copmuter for my romo'
 
-'''Today, I will go to the supermarket because I need a computer for my room'
+I find errors, I think the correct answer is :
+
+'Today, I will go to the supermarket because I need a computer for my room'
+
+Sentence : 'I am watching a moive from my cra'
+
+I find errors, I think the correct answer is :
+
+'I am watching a movie from my car'
+
