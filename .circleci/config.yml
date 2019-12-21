@@ -16,6 +16,7 @@ jobs: # A basic unit of work in a run
       - run:
           command: |
             pip install --upgrade pip
+            sudo pip install textdistance
             sudo pip install pipenv
             sudo pip install radon
             pipenv install
