@@ -101,6 +101,7 @@ For instance, let's say that we want to also guess a word written by someone in 
 ### Input : A .txt document with first, the words of the dictionary at each line until a line in which there will be the symbol "#" which will indicate that we start to consider sentences
 
 - Today
+- ,
 - I
 - Am
 - Watching
