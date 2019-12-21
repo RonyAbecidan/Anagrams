@@ -100,6 +100,20 @@ For instance, let's say that we want to also guess a word written by someone in 
 
 ### Input : A .txt document with first, the words of the dictionary at each line until a line in which there will be the symbol "#" which will indicate that we start to consider sentences
 
+- Today
+- I
+- Am
+- Watching
+- From
+- Will
+- Go
+- To
+- The
+- Because
+- Need
+- A
+- For
+- My
 - Movie
 - Car
 - Room
@@ -108,6 +122,7 @@ For instance, let's say that we want to also guess a word written by someone in 
 - #
 - Today, I will go to the supemakret because I need a copmuter for my romo
 - I am watching a moive from my cra
+
 
 ### Output : Proposition of corrections for the sentences
 
