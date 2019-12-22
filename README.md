@@ -139,3 +139,5 @@ Sentence : 'I am watching a moive from my cra'
 #### 'I am watching a movie from my car'
 
 If there is more than one proposition of correction, we will print all the proposed words separated by a '/'
+
+# All the above problems have been solved, you can test it, following the instructions in the OPENME notebook.
