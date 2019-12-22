@@ -124,17 +124,18 @@ For instance, let's say that we want to also guess a word written by someone in 
 - Today, I will go to the supemakret because I need a copmuter for my romo
 - I am watching a moive from my cra
 
-
 ### Output : Proposition of corrections for the sentences
 
 Sentence : 'Today, I will go to the supemakret because I need a copmuter for my romo'
 
-I find errors, I think the correct answer is :
+#### I find errors, I think the correct answer is :
 
-'Today, I will go to the supermarket because I need a computer for my room'
+#### 'Today, I will go to the supermarket because I need a computer for my room'
 
 Sentence : 'I am watching a moive from my cra'
 
-I find errors, I think the correct answer is :
+#### I find errors, I think the correct answer is :
 
-'I am watching a movie from my car'
+#### 'I am watching a movie from my car'
+
+If there is more than one proposition of correction, we will print all the proposed words separated by a '/'
