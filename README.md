@@ -1,30 +1,34 @@
-# Topic of the Project 
+## 🎓 Dealing with Anagrams 
 
-### For this second project, I chose to play with strings and I propose to attempt to solve the following problems
+- In this repo, I propose to solve some problems I found on the web for learning purposes in Python 
 
-# 1- We consider words composed of lowercase alphabetic characters, separated by a new line and we are interested in finding the 5 largest anagram groups
+![visitors](https://visitor-badge.glitch.me/badge?page_id=RonyAbecidan.Anagrams)
 
-### Example :
+--- 
 
-#### Input
-- undisplayed
-- trace
-- tea
-- singleton
-- eta
-- eat
-- displayed
-- crate
-- cater
-- carte
-- caret
-- beta
-- beat
-- bate
-- ate
-- abet
+:one: We consider words composed of lowercase alphabetic characters, separated by a new line and we are interested in finding the 5 largest anagram groups
 
-#### Output
+**Example :**
+
+``Input``
+  - undisplayed
+  - trace
+  - tea
+  - singleton
+  - eta
+  - eat
+  - displayed
+  - crate
+  - cater
+  - carte
+  - caret
+  - beta
+  - beat
+  - bate
+  - ate
+  - abet
+
+``Output``
 
 - Group of size 5: caret carte cater crate trace .
 - Group of size 4: abet bate beat beta .
@@ -32,24 +36,24 @@
 - Group of size 1: displayed .
 - Group of size 1: singleton .
 
-Source of this problem : http://poj.org/problem?id=2408
+Click [here](http://poj.org/problem?id=2408) to see the source of this problem
 
+---
 
-# 2 - We want a program that will read in a dictionary and a list of phrases and determine which words from the dictionary, if any, form anagrams of the given phrases.
+:two: We want a program that will read in a dictionary and a list of phrases and determine which words from the dictionary, if any, form anagrams of the given phrases.
 
-The program must find all sets of words in the dictionary which can be formed from the letters in each phrase. We will not include the set consisting of the original words. 
+- The program must find all sets of words in the dictionary which can be formed from the letters in each phrase. We will not include the set consisting of the original words. 
 
-If no anagram is present, do not write anything, not even a blank line.
+- If no anagram is present, nothing will be printed.
 
-These words must appear in alphabetic sequence.
+- These words must appear in alphabetic sequence.
 
-Input will consist of two parts. The first part is the dictionary, the second part is the set of phrases
-for which you need to find anagrams. Each part of the file will be terminated by a line consisting of a
-single ‘#’
+- Input will consist of two parts. The first part is the dictionary, the second part is the set of phrases
+for which you need to find anagrams. 
 
-### Example :
+**Example :**
 
-#### Input 
+`Input Dictionary`
 
 - ABC
 - AND
@@ -66,12 +70,13 @@ single ‘#’
 - ZD
 - ZZXY
 
-#
+`Input sentences`
+
 - ZZXY ABC DEF
 - SXZYTWQP KLJ YRTD
 - ZZXY YWJSRQ PTYYWQ ZZXY
 
-#### Output
+`Output`
 
 SXZYTWQP KLJ YRTD = DXZ K LJSRT PTYYWQ 
 
@@ -81,24 +86,19 @@ SXZYTWQP KLJ YRTD = KX LJSRT PTYYWQ ZD
 
 SXZYTWQP KLJ YRTD = KX LT PT Y YWJSRQ ZD
 
-Source of this problem : https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=84
+Click [here]( https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=84) to see the source of this problem
 
-# 3 - Finally, we will try to create a spell checker
+---
 
-We will study first, the correction of the mistakes in which all the letters of a word are present, but, not in the good order.
+3️⃣ - Finally, we will try to create a spell checker
 
-### Example :'Cra' instead of 'Car'
+For simplicity, we will simply study the correction of mistakes in which all the letters of a word are present, but, not in the good order.
+
+**Example :** 'Cra' instead of 'Car'
 
 The program must find such mistakes in a sentence or a paragraph knowing a sets of words in a dictionary.
 
-Moreover, I will extend the power of this spell checker in considering the case where some letters are forgotten in a word
-
-### Exemple : 'Rom' instead of 'Room'
-
-For instance, let's say that we want to also guess a word written by someone in which there are at most 2 letters missing (knowing a dictionary)
-
-
-### Input : A .txt document with first, the words of the dictionary at each line until a line in which there will be the symbol "#" which will indicate that we start to consider sentences
+`Input` : A .txt document with first, the words of the dictionary at each line until a line in which, there will be the symbol "#" indicating that we start to consider sentences
 
 - Today
 - ,
@@ -124,20 +124,20 @@ For instance, let's say that we want to also guess a word written by someone in 
 - Today, I will go to the supemakret because I need a copmuter for my romo
 - I am watching a moive from my cra
 
-### Output : Proposition of corrections for the sentences
+**Sentence** : 'Today, I will go to the supemakret because I need a copmuter for my romo'
 
-Sentence : 'Today, I will go to the supemakret because I need a copmuter for my romo'
+`Output` :  I find errors, I think the correct answer is :
 
-#### I find errors, I think the correct answer is :
+> Today, I will go to the supermarket because I need a computer for my room
 
-#### 'Today, I will go to the supermarket because I need a computer for my room'
+**Sentence** : 'I am watching a moive from my cra'
 
-Sentence : 'I am watching a moive from my cra'
+Output` :  I find errors, I think the correct answer is :
 
-#### I find errors, I think the correct answer is :
+> I am watching a movie from my car
 
-#### 'I am watching a movie from my car'
+- If there is more than one proposition of correction, we will print all the proposed words separated by a '/'
 
-If there is more than one proposition of correction, we will print all the proposed words separated by a '/'
+This last problem is not coming from any website, I imagined it considering the previous two ones.
 
-# All the above problems have been solved, you can test it, following the instructions in the OPENME notebook.
+**All the above problems have been solved, you can test it, following the instructions in the OPENME notebook**
