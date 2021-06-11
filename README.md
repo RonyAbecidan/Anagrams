@@ -120,19 +120,20 @@ The program must find such mistakes in a sentence or a paragraph knowing a sets 
 - Room
 - Supermarket
 - Computer
-- #
+- \#
 - Today, I will go to the supemakret because I need a copmuter for my romo
 - I am watching a moive from my cra
 
-**Sentence** : 'Today, I will go to the supemakret because I need a copmuter for my romo'
+
+`Input sentence` : 'Today, I will go to the supemakret because I need a copmuter for my romo'
 
 `Output` :  I find errors, I think the correct answer is :
 
 > Today, I will go to the supermarket because I need a computer for my room
 
-**Sentence** : 'I am watching a moive from my cra'
+`Input sentence` : 'I am watching a moive from my cra'
 
-Output` :  I find errors, I think the correct answer is :
+`Output` :  I find errors, I think the correct answer is :
 
 > I am watching a movie from my car
 
